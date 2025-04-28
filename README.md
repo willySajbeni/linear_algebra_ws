@@ -1,71 +1,120 @@
-# linear_algebra_ws
+# 🦀📐 LinearAlgebra-WS — Minimalist Linear Algebra Engine in Rust
 
-**Author:** [Willy Sajbeni](https://www.sajbeni.com)  
-**Email:** [willy@sajbeni.com](mailto:willy@sajbeni.com)  
-**GitHub:** [https://github.com/willySajbeni](https://github.com/willySajbeni)  
-**LinkedIn:** [https://www.linkedin.com/in/willysajbeni/](https://www.linkedin.com/in/willysajbeni/)
+**LinearAlgebra-WS** is a transparent, minimal, and open-source linear algebra library built with Rust, by Willy Sajbeni.
 
-
-A minimal, transparent, and Open Source linear algebra library written in Rust.
-
-## Why?
-
-Most machine learning libraries today (TensorFlow, PyTorch, etc.) involve heavy tracking, telemetry, or hidden behaviors.  
-**LinearAlgebra-RS** is designed to be completely open, simple, educational, and 100% under your control — **no tracking, no spyware**.
-
-This project starts from pure **linear algebra operations** and will evolve into a full **numerical computation engine**.
+Ideal for students, researchers, engineers, and developers who value **speed, privacy, and control**.
 
 ---
 
-## Current Features
-
-✅ **Vector operations**
-- Sum
-- Subtraction
-- Multiplication (element-wise)
-- Division (element-wise)
-
-✅ **User input for vectors and matrices**
-
----
-
-## Upcoming Features (Roadmap)
-
-- **Matrix operations**
-  - Sum of Matrices
-  - Subtraction of Matrices
-  - Multiplication of Matrices
-  - Matrix Inversion
-  - Matrix Division (via Multiplication by Inverse)
-  - LU Decomposition
-  - Eigenvalues and Eigenvectors
-
-- **Advanced Numerical Methods**
-  - Iterative Methods for Linear Systems (Jacobi, Gauss-Seidel)
-  - Direct Methods (Gaussian Elimination, LU Factorization)
-  - Conjugate Gradient Method (for sparse systems)
-
-- **Gradient Optimizers**
-  - Simple Gradient Descent
-  - Stochastic Gradient Descent (SGD)
-  - Adam Optimizer
-  - RMSProp
-
-- **Dimensionality Reduction**
-  - PCA (Principal Component Analysis)
-  - SVD (Singular Value Decomposition)
-  - LLE (Locally Linear Embedding)
-  - t-SNE (t-Distributed Stochastic Neighbor Embedding)
-
----
-
-## How to Run
-
-Make sure you have **Rust** installed.
-
-Clone this repository:
+# Quick Install & Run
 
 ```bash
-git clone https://github.com/willySajbeni/linear_algebra_ws.git
-cd linear_algebra_ws
-cargo run
+cargo install linear_algebra_ws
+linear_algebra_ws
+```
+
+Current Features
+
+ Vector Operations
+
+    Sum
+
+    Subtraction
+
+    Multiplication (element-wise)
+
+    Division (element-wise)
+
+ User-friendly input system
+
+    Easily input vectors and matrices from the terminal
+
+Upcoming Features (Roadmap)
+
+Matrix Operations
+
+    Sum of Matrices
+
+    Subtraction of Matrices
+
+    Multiplication of Matrices
+
+    Matrix Inversion
+
+    Matrix Division (via Multiplication by Inverse)
+
+    LU Decomposition
+
+    Eigenvalues and Eigenvectors
+
+Advanced Numerical Methods
+
+    Iterative Methods for Linear Systems (Jacobi, Gauss-Seidel)
+
+    Direct Methods (Gaussian Elimination, LU Factorization)
+
+    Conjugate Gradient Method (for sparse systems)
+
+Gradient Optimizers
+
+    Simple Gradient Descent
+
+    Stochastic Gradient Descent (SGD)
+
+    Adam Optimizer
+
+    RMSProp
+
+Dimensionality Reduction
+
+    PCA (Principal Component Analysis)
+
+    SVD (Singular Value Decomposition)
+
+    LLE (Locally Linear Embedding)
+
+    t-SNE (t-Distributed Stochastic Neighbor Embedding)
+
+Philosophy
+
+    100% Pure Rust
+
+    Zero telemetry, zero tracking
+
+    Educational and extendable
+
+    Mathematical clarity prioritized over raw performance
+
+    Fully Open Source (MIT License)
+
+Why?
+
+Most modern machine learning libraries (TensorFlow, PyTorch, etc.) embed telemetry and hidden behaviors.
+
+LinearAlgebra-WS is different — it's completely open, simple, transparent, and under your full control.
+No tracking. No hidden code. Just math.
+License
+
+This project is licensed under the MIT License.
+
+Built and maintained by Willy Sajbeni.
+
+    Website: www.sajbeni.com
+
+    Email: willy@sajbeni.com
+
+    GitHub: github.com/willySajbeni
+
+Future Enhancements
+
+    Unit tests (#[cfg(test)])
+
+    Documentation examples
+
+    CLI enhancements
+
+    Support for real-world numerical problems
+
+Summary
+
+LinearAlgebra-WS is your go-to open-source toolbox to build serious numerical computation engines in Rust — with full mathematical transparency and no compromises.
