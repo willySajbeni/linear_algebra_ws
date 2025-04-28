@@ -1,0 +1,15 @@
+[package]
+name = "linear_algebra_ws"
+version = "0.1.0"
+edition = "2021" # 
+authors = ["Willy Sajbeni <willy@sajbeni.com>"]
+description = "An open-source Rust library for linear algebra operations, designed with privacy and transparency."
+license = "MIT"
+repository = "https://github.com/willySajbeni/linear_algebra_ws"
+homepage = "https://www.sajbeni.com"
+documentation = "https://docs.rs/linear_algebra_ws"
+readme = "README.md"
+keywords = ["linear algebra", "rust","open source","privacy", "machine learning", "HFT", "Deep Learning", "AI"]
+categories = ["science", "mathematics", "algorithms"]
+
+[dependencies]
